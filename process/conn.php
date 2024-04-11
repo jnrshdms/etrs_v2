@@ -36,7 +36,7 @@
         $fptc = $fpprefix."".$fpdateCode."".$fprandomCode;
 
     try {
-        $conn = new PDO ("mysql:host=$servername;dbname=etrs_db_v2",$username,$pass);
+        $conn = new PDO ("mysql:host=$servername;dbname=etrs_db",$username,$pass);
 
   //        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   // echo "Connected successfully";
