@@ -95,7 +95,7 @@ document.getElementById('initial_practice_department_update').value = department
 document.getElementById('initial_practice_position_update').value = position;
 document.getElementById('initial_practice_date_hired_update').value = date_hired;
 document.getElementById('sp_id_update_initial_practice').value = provider;
-document.getElementById('unique_id_initial_practice_update').value = unique_id;
+document.getElementById('unique_id_intial_practice_update').value = unique_id;
 }
 
 const update_initial_practice_record =()=>{
@@ -107,7 +107,7 @@ const update_initial_practice_record =()=>{
     var initial_practice_training_end_date = document.getElementById('initial_practice_training_end_date_update').value;
     var initial_practice_remarks = document.getElementById('initial_practice_remarks').value;
     var sp_id = document.getElementById('sp_id_update_initial_practice').value;
-    var unique_id = document.getElementById('unique_id_initial_practice_update').value;
+    var unique_id = document.getElementById('unique_id_intial_practice_update').value;
      $.ajax({
         url: '../../process/ptt/initial_practice.php',
         type: 'POST', 

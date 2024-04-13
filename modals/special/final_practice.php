@@ -17,7 +17,7 @@
            <div class="row">
                 <div class="col-2">
                         <input type="hidden" name="final_id" id="final_practice_id">
-                        <input type="hidden" name="unique_id_final_practice_update" id="unique_id_final_practice_update>
+                        <input type="hidden" name="unique_id_final_practice_update" id="unique_id_final_practice_update">
                      <span>Batch No:   </span> <input type="text" id="final_practice_batch_no_update" class="form-control" class="noSpace" disabled>
                 </div>
                 <div class="col-2">
