@@ -1,8 +1,8 @@
 <?php
     $servername = 'localhost';
     $username = 'root';
-    $pass = '';
-    // $pass = 'trspassword2022';
+    // $pass = '';
+    $pass = 'trspassword2022';
     date_default_timezone_set('Asia/Manila');
     $server_date_time = date('Y-m-d H:i:s');
     $server_date_only = date('Y-m-d');
@@ -18,7 +18,7 @@
       $iprefix = "ITC:";
         $idateCode = date('ymd');
         $irandomCode = mt_rand(10000,50000);
-        $itc = $iprefix."".$idateCode."".$irandomCode; 
+        $itc = $iprefix."".$idateCode."".$irandomCode;
 
          $fprefix = "FTC:";
         $fdateCode = date('ymd');
@@ -36,7 +36,7 @@
         $fptc = $fpprefix."".$fpdateCode."".$fprandomCode;
 
     try {
-        $conn = new PDO ("mysql:host=$servername;dbname=etrs_db",$username,$pass);
+        $conn = new PDO ("mysql:host=$servername;dbname=etrs_db_v2",$username,$pass);
 
   //        $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
   // echo "Connected successfully";
